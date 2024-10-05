@@ -4,3 +4,17 @@
 // 2. Inicializa la tupla con los valores [10, 15].
 // 3. Desestructura los valores de la tupla en dos variables: x e y.
 // 4. Imprime por consola los valores de x e y.
+
+//declaro
+let coordenadas: [number, number];
+
+//inicializo
+coordenadas = [10,15];
+
+//desestructuro valores
+let [x, y] = coordenadas;
+
+//imprimo
+console.log(x);
+console.log(y);
+

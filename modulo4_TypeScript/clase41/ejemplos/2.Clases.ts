@@ -5,7 +5,7 @@ class gato {
     public edad: number;
     private raza: string;
 
-    //Constructor
+    //Constructor. Inicializa el objeto creado a partir de una clase.
     constructor(nombre: string, edad: number, raza: string){
         this.nombre = nombre;
         this.edad = edad;
